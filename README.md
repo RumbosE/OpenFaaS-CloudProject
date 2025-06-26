@@ -46,7 +46,7 @@ choco install faas-cli
 ### 6. Configurar el CLI
 Procedemos a configurar el cli en el puerto de su preferencia, y con el password obtenido en pasos anteriores
 ```bash
-$env:OPENFAAS_URL=http://localhost:8081
+$env:OPENFAAS_URL="http://localhost:8081"
 
 faas-cli login --username admin --password [PASSWORD_OBTENIDA]
 ```
